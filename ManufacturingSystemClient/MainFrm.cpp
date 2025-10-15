@@ -13,7 +13,7 @@
 #endif
 
 // CMainFrame
-
+// ㅇㅇ
 IMPLEMENT_DYNCREATE(CMainFrame, CFrameWndEx)
 
 const int  iMaxUserToolbars = 10;
