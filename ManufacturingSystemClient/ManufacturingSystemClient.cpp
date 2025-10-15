@@ -8,7 +8,7 @@
 #include "afxdialogex.h"
 #include "ManufacturingSystemClient.h"
 #include "MainFrm.h"
-
+#include "CUserSelectDlg.h"
 #include "ManufacturingSystemClientDoc.h"
 #include "ManufacturingSystemClientView.h"
 
@@ -132,6 +132,10 @@ protected:
 // 구현입니다.
 protected:
 	DECLARE_MESSAGE_MAP()
+public:
+//	afx_msg void OnRoleAdmin();
+//	afx_msg void OnRoleStaff();
+//	afx_msg void OnRoleViewer();
 };
 
 CAboutDlg::CAboutDlg() noexcept : CDialogEx(IDD_ABOUTBOX)
@@ -144,6 +148,9 @@ void CAboutDlg::DoDataExchange(CDataExchange* pDX)
 }
 
 BEGIN_MESSAGE_MAP(CAboutDlg, CDialogEx)
+//	ON_COMMAND(ID_ROLE_ADMIN, &CAboutDlg::OnRoleAdmin)
+//	ON_COMMAND(ID_ROLE_STAFF, &CAboutDlg::OnRoleStaff)
+//	ON_COMMAND(ID_ROLE_VIEWER, &CAboutDlg::OnRoleViewer)
 END_MESSAGE_MAP()
 
 // 대화 상자를 실행하기 위한 응용 프로그램 명령입니다.
@@ -174,8 +181,4 @@ void CManufacturingSystemClientApp::LoadCustomState()
 void CManufacturingSystemClientApp::SaveCustomState()
 {
 }
-
-// CManufacturingSystemClientApp 메시지 처리기
-
-
 

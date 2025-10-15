@@ -13,6 +13,7 @@
 #include "ManufacturingSystemClientDoc.h"
 
 #include <propkey.h>
+#include "CUserSelectDlg.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
